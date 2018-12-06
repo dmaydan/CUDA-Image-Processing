@@ -6,6 +6,8 @@ During the course, I mastered the fundamentals of massively parallel computing b
 Colored digital images are represented by the <code>RGBA</code> format, where each channel measures between 0-255 such that 0 means that the color is fully absent, while 255 means that the color is fully saturated. The A (Alpha) represents that transparency of the image, which we do not need to change in order to convert an image to greyscale. To calculate the appropriate greyscale intensity of a colored pixel, we must use the following formula: 
 
 <code>I = .299f * R + .587 * G + .114 * B</code>
+
+This application takes advantage of the <i>map communication pattern</i> where the same function is executed on each piece of data, and there is a 1-to-1 correspondence between input and output.
 <h3>Task</h3>
 <ol>
 <li><i>Configuring Kernel Launch</i>
