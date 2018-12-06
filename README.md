@@ -55,4 +55,4 @@ void rgba_to_greyscale(const uchar4* const rgbaImage,
 </li>
 </ol>
 
-The full code for this problem set can be found in the folder labeled <code>Problem Set 1</code>.
+The full code for this problem set can be found in the folder labeled <code>Problem Set 1</code>. It is important to note that within this folder, I only wrote code for the <code>student_func.cu</code> file (I described the contents of this file above). The rest of the code was provided by the course and was not part of the assignment.
